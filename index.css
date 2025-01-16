@@ -82,8 +82,11 @@ nav a:hover{
     font-size: 12px;
     text-transform: capitalize;
 }
+.category h2:hover{
+    cursor:pointer;
+}
 .category-content{
-    background-color: rgba(206, 203, 203, 0.479);
+    background-color: aliceblue;
     padding: 3px;
     display: none;
 }
@@ -92,19 +95,27 @@ nav a:hover{
     padding: 5px;
     text-decoration: none;
     text-transform: capitalize;
+    width: 120px;
 }
 .category-content a:hover{
     background-color: grey;
+    color: #fff;
     height: 20px;
     width: 100%;
+}
+.category:hover .category-content{
+    display: block;
 }
 .condition h2{
     font-size: 12px;
     text-transform: capitalize;
-    margin-left: 10px;
+    margin-left: 20px;
+}
+.condition h2{
+    cursor: pointer;
 }
 .condition-content{
-    background-color: rgba(206, 203, 203, 0.479);
+    background-color: aliceblue;
     padding: 3px;
     display: none;
 }
@@ -116,8 +127,12 @@ nav a:hover{
 }
 .condition-content a:hover{
     background-color: grey;
+    color: #fff;
     height: 20px;
     width: 100%;
+}
+.condition:hover .condition-content{
+    display: block;
 }
 .offer-link{
     margin: 59px 0 0 230px;
@@ -154,7 +169,7 @@ nav a:hover{
     border-top: 5px solid lightblue;
 }
 .offer-container h1{
-    color: #fff;
+    color: red;
     margin-left: 150px;
     background-color: lightblue;
     height: 40px;
@@ -289,7 +304,7 @@ nav a:hover{
 }
 .service-container h2{
     background-color: lightblue;
-    color: #fff;
+    color: red;
     text-transform: uppercase;
     height: 30px;
     width: 200px;
@@ -433,15 +448,14 @@ nav a:hover{
     margin: 10px 0 0 5px;
 }
 .simbi-container{
-    height: 400px;
+    height: 450px;
     width: 100%;
     background-color: darkblue;
 }
 .simbi-container h1{
     position: absolute;
-    color: #fff;
+    color: orange;
     text-transform: capitalize;
-    text-decoration: underline;
     margin: 20px 0 0 80px;
     font-size: 25px;
 }
@@ -456,7 +470,7 @@ nav a:hover{
 .simbi-container a{
     color: #fff;
     position: absolute;
-    margin: 350px 0 0 150px;
+    margin: 370px 0 0 150px;
 }
 .testimonials{
     height: 300px;
