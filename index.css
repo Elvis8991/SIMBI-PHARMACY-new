@@ -27,9 +27,9 @@ nav a{
     padding-bottom: 10px;
 }
 nav a:hover{
-    background-color: aqua;
-    height: 20px;
-    width: 100%;
+    background-color: darkblue;
+    height: 40px;
+    padding: 10px;
 }
 .bars{
     background-color: black;
@@ -123,17 +123,11 @@ nav a:hover{
     margin: 59px 0 0 230px;
     position: absolute;
 }
-.offer-link a{
-    text-decoration: none;
-    font-size: 15px;
-    color: black;
-    text-transform: capitalize;
-}
 #submit-btn{
     background-color: #fff;
     border: none;
     text-transform: capitalize;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 .container{
     height: 300px;
@@ -196,6 +190,8 @@ nav a:hover{
     width: 180px;
     margin: 350px 0 0 10px;
     background-image: url(index-images/prom.jpeg);
+    background-size: cover;
+    background-position: center;
 }
 .b-o4{
     position: absolute;
@@ -430,7 +426,7 @@ nav a:hover{
 }
 .sale-box4{
     height: 260px;
-    width: 400px;
+    width: 410px;
     background-image: url(index-images/salebox4.jpg);
     background-size: cover;
     background-position: center;
@@ -564,7 +560,7 @@ footer h4{
     color: black;
 }
 .footer-content a:hover{
-    color: #fff;
+    color: orange;
     text-decoration: underline;
 }
 .footer-condition{
@@ -584,6 +580,404 @@ footer h4{
     color: black;
 }
 .footer-condition a:hover{
-    color: #fff;
+    color: orange;
     text-decoration: underline;
+}
+@media (768px <= width <= 1223px){
+    header{
+        height: 70px;
+        flex-direction: column;
+    }
+    header h1{
+        font-size: 25px;
+        max-width: 400px;
+        margin: 20px 0 0 10px;
+    }
+    nav{
+        display: inline-flex;
+        margin: 20px 0 0 500px;
+    }
+    nav a{
+        margin-left: 10px;
+        color: #000;
+        font-size: 20px;
+    }
+    nav a:hover{
+        color: #fff;
+    }
+    .bars{
+        display: none;
+    }
+    .search-container{
+        height: 50px;
+    }
+    .search-bar{
+        margin-left: 400px;
+    }
+    .shop-box{
+        margin-left: 750px;
+    }
+    .dropdown-btns{
+        margin-top: 10px;
+    }
+    .category h2{
+        font-size: 20px;
+    }
+    .category h2:hover{
+        cursor: pointer;
+    }
+    .category-content{
+        height: 200px;
+        width: 150px;
+        background-color: aliceblue;
+        color: #000;
+    }
+    .category-content a:hover{
+        color: #fff;
+        height: 40px;
+        padding: 10px;
+        font-size: 18px;
+    }
+    .category:hover .category-content{
+        display: block;
+    }
+    .condition h2{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .condition h2:hover{
+        cursor: pointer;
+    }
+    .condition-content{
+        width: 200px;
+        margin-left: 30px;
+        background-color: aliceblue;
+    }
+    .condition-content a:hover{
+        height: 40px;
+        color: #fff;
+        padding: 10px;
+        font-size: 18px;
+    }
+    .condition:hover .condition-content{
+        display: block;
+    }
+    .offer-link{
+        margin: 10px 0 0 600px;
+    }
+    #submit-btn{
+        font-size: 20px;
+    }
+    .container{
+        flex-direction: column;
+        height: 500px;
+    }
+    .offer-container{
+        flex-direction: column;
+        height: 500px;
+    }
+    .offer-container h1{
+        font-size: 25px;
+        color: red;
+        width: 130px;
+        margin-left: 400px;
+    }
+    .offer-boxes{
+        display: inline-flex;
+    }
+    .b-o1{
+        height: 300px;
+        margin-left: 20px;
+    }
+    .b-o1_btns{
+        margin: 380px 0 0 20px;
+    }
+    #addbtn1{
+        height: 40px;
+        width: 100px;
+        font-size: 15px;
+        background-color: darkblue;
+        color: #fff;
+        border: none;
+    }
+    #viewbtn1{
+        height: 40px;
+        width: 100px;
+        font-size: 15px;
+        border: 2px solid darkblue;
+        background-color: #fff;
+    }
+    .b-o2{
+        height: 300px;
+        margin-left: 250px;
+    }
+    .b-o2_btns{
+        margin: 380px 0 0 250px;
+    }
+    #addbtn2{
+        height: 40px;
+        width: 100px;
+        font-size: 15px;
+        background-color: darkblue;
+        color: #fff;
+        border: none;
+    }
+    #viewbtn2{
+        height: 40px;
+        width: 100px;
+        font-size: 15px;
+        border: 2px solid darkblue;
+        background-color: #fff;
+    }
+    .b-o3{
+        margin: 10px 0 0 500px;
+        height: 300px;
+    }
+    .b-o3_btns{
+        margin: 380px 0 0 500px;
+    }
+    #addbtn3{
+        height: 40px;
+        width: 100px;
+        font-size: 15px;
+        background-color: darkblue;
+        color: #fff;
+        border: none;
+    }
+    #viewbtn3{
+        height: 40px;
+        width: 100px;
+        font-size: 15px;
+        border: 2px solid darkblue;
+        background-color: #fff;
+    }
+    .b-o4{
+        margin: 10px 0 0 730px;
+        height: 300px;
+    }
+    .b-o4_btns{
+        margin: 380px 0 0 730px;
+    }
+    #addbtn4{
+        height: 40px;
+        width: 100px;
+        font-size: 15px;
+        background-color: darkblue;
+        color: #fff;
+        border: none;
+    }
+    #viewbtn4{
+        height: 40px;
+        width: 100px;
+        font-size: 15px;
+        border: 2px solid darkblue;
+        background-color: #fff;
+    }
+    .info-container{
+        flex-direction: column;
+    }
+    .info-container img{
+        height: 400px;
+        margin: 40px 0 0 20px;
+    }
+    .info-container h4{
+        font-size: 30px;
+        margin: 50px 0 0 580px;
+    }
+    .info-container p{
+        font-size: 25px;
+        margin: 170px 0 0 580px;
+    }
+    #aboutbtn{
+        margin: 320px 0 0 630px;
+        height: 50px;
+        width: 200px;
+        font-size: 25px;
+    }
+    #aboutbtn:hover{
+        cursor: pointer;
+        background-color: darkblue;
+        color: #fff;
+        border: none;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+    .service-container{
+        flex-direction: column;
+        height: 1030px;
+    }
+    .service-container h2{
+        font-size: 25px;
+        width: 220px;
+        margin-left: 30px;
+        color: red;
+    }
+    .s-box1{
+        height: 300px;
+        width: 450px;
+    }
+    .sb1-info{
+        margin: 20px 0 0 500px;
+    }
+    .sb1-info h3{
+        font-size: 40px;
+    }
+    .sb1-info p{
+        font-size: 25px;
+    }
+    .sb1-info a{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .s-box2{
+        height: 300px;
+        width: 450px;
+        margin-top: 350px;
+    }
+    .sb2-info{
+        margin: 350px 0 0 500px;
+    }
+    .sb2-info h3{
+        font-size: 40px;
+    }
+    .sb2-info p{
+        font-size: 25px;
+    }
+    .sb2-info a{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .s-box3{
+        height: 300px;
+        width: 450px;
+        margin-top: 680px;
+    }
+    .sb3-info{
+        margin: 680px 0 0 500px;
+    }
+    .sb3-info h3{
+        font-size: 40px;
+    }
+    .sb3-info p{
+        font-size: 25px;
+    }
+    .sb3-info a{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .sales-container{
+        height: 1470px;
+    }
+    .sale-box1{
+        height: 500px;
+        width: 950px;
+        margin-left: 5px;
+    }
+    .sale-box2{
+        height: 470px;
+        width: 470px;
+        margin-left: 10px;
+    }
+    .sale-box3{
+        height: 470px;
+        width: 470px;
+        margin-left: 490px;
+    }
+    .sale-box4{
+        height: 460px;
+        width: 950px;
+        margin-left: 5px;
+    }
+    .simbi-container{
+        height: 600px;
+    }
+    .simbi-container h1{
+        font-size: 40px;
+        text-decoration: none;
+        margin: 30px 0 0 250px;
+        color: orange;
+    }
+    .simbi-container p{
+        font-size: 25px;
+        margin: 90px 0 0 100px;
+        min-width: 700px;
+    }
+    .simbi-container a{
+        font-size: 30px;
+        margin: 520px 0 0 340px;
+    }
+    .testimonials{
+        height: 450px;
+    }
+    .testimonials h2{
+        font-size: 40px;
+        min-width: 600px;
+        margin-left: 200px;
+    }
+    .test-cr{
+        margin: 130px 0 0 200px;
+    }
+    .cr1{
+        height: 150px;
+        width: 150px;
+    }
+    .cr2{
+        height: 150px;
+        width: 150px;
+        margin-left: 40px;
+    }
+    .cr3{
+        height: 150px;
+        width: 150px;
+        margin-left: 40px;
+    }
+    .test-cr p{
+        margin: 170px 0 0 20px;
+        font-size: 20px;
+    }
+    footer{
+        height: 600px;
+    }
+    footer h1{
+        font-size: 40px;
+        margin-left: 450px;
+        color: darkblue;
+    }
+    .footer-content{
+        margin: 70px 0 0 300px;
+    }
+    .footer-content h2{
+        font-size: 30px;
+    }
+    .footer-content a{
+        font-size: 20px;
+    }
+    .footer-condition{
+        margin: 70px 0 0 590px;
+    }
+    .footer-condition h2{
+        font-size: 30px;
+    }
+    .footer-condition a{
+        font-size: 20px;
+    }
+    footer h4{
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .icons{
+        height: 300px;
+        width: 200px;
+        margin-top: 100px;
+    }
+    .contact{
+        margin: 450px 0 0 20px;
+    }
+    .contact h3{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .contact p{
+        font-size: 30px;
+    }
 }
