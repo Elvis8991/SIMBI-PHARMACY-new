@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 header{
-    height: 70px;
+    height: 50px;
     width: 100%;
     background-color: lightblue;
 }
 header h1{
-    font-size: 20px;
+    font-size: 15px;
     position: absolute;
     margin: 10px 0 0 10px;
     text-transform: uppercase;
@@ -36,10 +36,10 @@ nav a:hover{
     height: 40px;
     width: 40px;
     position: absolute;
-    margin: 10px 0 0 350px;
+    margin: 5px 0 0 370px;
 }
 .search-container{
-    height: 100px;
+    height: 80px;
     width: 100%;
 }
 .search-bar{
@@ -63,23 +63,15 @@ nav a:hover{
     position: absolute;
     margin: 5px 0 0 230px;
 }
-#submit-btn{
-    position: absolute;
-    background-color: #fff;
-    border: none;
-    text-transform: capitalize;
-    max-width: 100px;
-    margin: 10px 0 0 30px;
-}
 .cart{
     position: absolute;
 }
 .cart span{
     background-color: black;
-    height: 50px;
+    height: 40px;
     width: 50px;
     position: absolute;
-    margin: 0 0 0 120px;
+    margin: 0 0 0 130px;
 }
 .dropdown-btns{
     position: absolute;
@@ -128,13 +120,20 @@ nav a:hover{
     width: 100%;
 }
 .offer-link{
-    margin: 0 0 0 10px;
+    margin: 59px 0 0 230px;
+    position: absolute;
 }
 .offer-link a{
     text-decoration: none;
-    font-size: 13px;
+    font-size: 15px;
     color: black;
     text-transform: capitalize;
+}
+#submit-btn{
+    background-color: #fff;
+    border: none;
+    text-transform: capitalize;
+    margin-left: 10px;
 }
 .container{
     height: 300px;
@@ -178,28 +177,34 @@ nav a:hover{
     height: 200px;
     width: 180px;
     margin-left: 10px;
-    background-color: grey;
+    background-image: url(index-images/ace.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .b-o2{
     position: absolute;
     height: 200px;
     width: 180px;
     margin-left: 220px;
-    background-color: red;
+    background-image: url(index-images/betamethasone-cream-500x500.webp);
+    background-position: center;
+    background-size: cover;
 }
 .b-o3{
     position: absolute;
     height: 200px;
     width: 180px;
     margin: 350px 0 0 10px;
-    background-color: yellow;
+    background-image: url(index-images/prom.jpeg);
 }
 .b-o4{
     position: absolute;
     height: 200px;
     width: 180px;
     margin: 350px 0 0 220px;
-    background-color: yellowgreen;
+    background-image: url(index-images/castor.jpeg);
+    background-position: center;
+    background-size: cover;
 }
 .b-o1_btns{
     position: absolute;
@@ -401,26 +406,34 @@ nav a:hover{
 .sale-box1{
     height: 300px;
     width: 400px;
-    background-color: rgba(206, 203, 203, 0.479);
+    background-image: url(index-images/salebox1.webp);
+    background-size: cover;
+    background-position: center;
     margin: 10px 0 0 5px;
 }
 .sale-box2{
     height: 200px;
     width: 200px;
-    background-color: rgba(206, 203, 203, 0.479);
+    background-image: url(index-images/salebox2.jpg);
+    background-size: cover;
+    background-position: center;
     margin: 10px 0 0 5px;
     position: absolute;
 }
 .sale-box3{
     height: 200px;
     width: 200px;
-    background-color: rgba(206, 203, 203, 0.479);
+    background-image: url(index-images/salebox3.webp);
+    background-size: cover;
+    background-position: center;
     margin: 10px 0 0 210px;
 }
 .sale-box4{
     height: 260px;
     width: 400px;
-    background-color: rgba(206, 203, 203, 0.479);
+    background-image: url(index-images/salebox4.jpg);
+    background-size: cover;
+    background-position: center;
     margin: 10px 0 0 5px;
 }
 .simbi-container{
@@ -498,12 +511,12 @@ nav a:hover{
     text-align: center;
 }
 footer{
-    height: 420px;
+    height: 450px;
     width: 100%;
     background-color: lightblue;
 }
 footer h1{
-    font-size: 25px;
+    font-size: 20px;
     position: absolute;
     margin: 10px 0 0 150px;
     color: #fff;
