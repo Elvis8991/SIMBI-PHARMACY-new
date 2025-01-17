@@ -224,10 +224,17 @@ nav a:hover{
 #addbtn1{
     height: 30px;
     width: 80px;
+    font-size: 12px;
+    background-color: darkblue;
+    color: #fff;
+    border: none;
 }
 #viewbtn1{
     height: 30px;
     width: 80px;
+    font-size: 12px;
+    border: 2px solid darkblue;
+    background-color: #fff;
 }
 .b-o2_btns{
     position: absolute;
@@ -236,10 +243,17 @@ nav a:hover{
 #addbtn2{
     height: 30px;
     width: 80px;
+    font-size: 12px;
+    background-color: darkblue;
+    color: #fff;
+    border: none;
 }
 #viewbtn2{
     height: 30px;
     width: 80px;
+    font-size: 12px;
+    border: 2px solid darkblue;
+    background-color: #fff;
 }
 .b-o3_btns{
     position: absolute;
@@ -248,10 +262,17 @@ nav a:hover{
 #addbtn3{
     height: 30px;
     width: 80px;
+    font-size: 12px;
+    background-color: darkblue;
+    color: #fff;
+    border: none;
 }
 #viewbtn3{
     height: 30px;
     width: 80px;
+    font-size: 12px;
+    border: 2px solid darkblue;
+    background-color: #fff;
 }
 .b-o4_btns{
     position: absolute;
@@ -260,10 +281,17 @@ nav a:hover{
 #addbtn4{
     height: 30px;
     width: 80px;
+    font-size: 12px;
+    background-color: darkblue;
+    color: #fff;
+    border: none;
 }
 #viewbtn4{
     height: 30px;
     width: 80px;
+    font-size: 12px;
+    border: 2px solid darkblue;
+    background-color: #fff;
 }
 .info-container{
     height: 500px;
